@@ -19,4 +19,4 @@ security:
   key-rotation:
     interval-hours: 24  # Rotate RSA keys every 24 hours
   jwt:
-    access-token-validity-minutes: 20  # JWT token expires in 60 minutes (1 hour)
+    access-token-validity-minutes: 5  # JWT token expires in 60 minutes (1 hour)
